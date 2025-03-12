@@ -1,0 +1,13 @@
+name = "acaciachan's Masa's Mod Translation"
+filename = "acaciachan-masa-1.21-mod-translation.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/V2gM4JCa/versions/boGkb99T/acaciachan-masa-1.21-mod-translation.zip"
+hash-format = "sha512"
+hash = "3c925354facbbd978775edd0a1df6e69416e420fa0e0d465026689150e2c8552746bb40156ba978372a5a9dfab8d806c317fc164fdbfea726f41f495f53aedd7"
+
+[update]
+[update.modrinth]
+mod-id = "V2gM4JCa"
+version = "boGkb99T"

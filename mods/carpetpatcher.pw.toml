@@ -1,0 +1,8 @@
+name = "CarpetPatcher"
+filename = "carpet_patcher-v1.0.0-mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/wendavid552/Carpet-Patcher/releases/download/v1.0.0/carpet_patcher-v1.0.0-mc1.21.1.jar"
+hash-format = "sha256"
+hash = "7c27ab777ef5673584995a736b643d2bec8d19a0034ad8b57a9110af31a8f04d"

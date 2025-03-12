@@ -1,0 +1,13 @@
+name = "Xaero Maps Chinese Pack"
+filename = "xaeros-map-chinese.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/VEnCkfVF/versions/zpyoXHSI/xaeros-map-chinese.zip"
+hash-format = "sha512"
+hash = "571d0ced2c068a39f717dd6214835fad166e710717538306748fabb0173aa8b4b0cc1d0bd131d3bd2b132e90d1f4fd12f74f206d2c190f6faa6fc43915d5e959"
+
+[update]
+[update.modrinth]
+mod-id = "VEnCkfVF"
+version = "zpyoXHSI"

@@ -1,0 +1,13 @@
+name = "WorldEdit Hang Fix"
+filename = "worldedit-hang-fix-v1.0.1-mc1.20.6-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uz1wuff3/versions/rOOwnVua/worldedit-hang-fix-v1.0.1-mc1.20.6-fabric.jar"
+hash-format = "sha512"
+hash = "d6e2138b20c7143d0dec29dbba3bc18b51a95c5779c8ba398db2cffdb4986655c03f931f0cf888a98bf0a9424512eecc887c18fef1b6076faac454613edda3f1"
+
+[update]
+[update.modrinth]
+mod-id = "uz1wuff3"
+version = "rOOwnVua"

@@ -1,0 +1,57 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "tag"
+        required: true
+
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: add permissions
+        run: chmod +x ./packwiz-linux
+
+      - name: build-modrinth
+        run: ./packwiz-linux mr export
+
+      - name: build-curseforge
+        run: ./packwiz-linux cf export
+
+      - name: collect the output file
+        run: |
+          mkdir output
+          mv *.mrpack *.zip output/
+
+      - name: get tag
+        id: check-env
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "TAG=${{ github.event.inputs.tag }}" >> $GITHUB_OUTPUT
+          else
+            echo "TAG=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: publish
+        uses: Kira-NT/mc-publish@v3.3.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-generate-changelog: false
+          github-tag: "${{ steps.check-env.outputs.TAG }}"
+
+          files: |
+            output/*.zip
+            output/*.mrpack
+

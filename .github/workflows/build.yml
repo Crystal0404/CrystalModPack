@@ -1,0 +1,43 @@
+name: Build
+
+on:
+  push:
+    paths:
+      - "pack.toml"
+      - ".github/workflows/**"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: add permissions
+        run: chmod +x ./packwiz-linux
+
+      - name: build-modrinth
+        run: ./packwiz-linux mr export
+
+      - name: build-curseforge
+        run: ./packwiz-linux cf export
+
+      - name: collect the output file
+        run: |
+          mkdir output
+          mv *.mrpack *.zip output/
+
+      - name: capture build artifacts modrinth
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-modrinth
+          path: output/*.mrpack
+
+      - name: capture build artifacts curseforge
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-curseforge
+          path: output/*.zip

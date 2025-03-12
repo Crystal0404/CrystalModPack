@@ -1,0 +1,13 @@
+name = "Let Me Click And Send"
+filename = "LetMeClickAndSend-v1.1.1-mc1.20.6-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pGbwwB5d/versions/abVuYksa/LetMeClickAndSend-v1.1.1-mc1.20.6-fabric.jar"
+hash-format = "sha512"
+hash = "f2f5d2c6b601b6c7ffea1103544347128c58a9ad13485cd3bf62ec824cadaa13baa1d2fbdc4840d6314882f17f61bc67dc118a1e4150db6c005e265eb607e1ea"
+
+[update]
+[update.modrinth]
+mod-id = "pGbwwB5d"
+version = "abVuYksa"
