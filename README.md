@@ -19,3 +19,7 @@
 如果你发现了一个bug, 欢迎提交issues与pr来修复!
 
 如果你想添加(删除)一个mod(或其它的什么), 请不要直接开启pr, 请开启一个issues与我讨论, 因为它只是我自用的mod包, 如果你的提议被我拒绝了, 不要伤心, 只是因为我不喜欢这个mod, 谢谢!
+
+## LICENSE
+
+CrystalModPack © 2025 by Crystal0404 is licensed under CC BY-NC 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/
