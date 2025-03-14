@@ -1,13 +1,13 @@
-name = "1.21.1-Fabric"
+name = "1.21.4-Fabric"
 author = "Crystal0404"
-version = "1.0.0"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "998ec64c9207cb5dbb00f9924e7b29dce3e42497e0fe4a45e13c4fa3982ca9bd"
+hash = "ffcfd444107bc106669e67d8d3201216f580fdcc135733cecca76ef1899635d2"
 
 [versions]
 fabric = "0.16.10"
-minecraft = "1.21.1"
+minecraft = "1.21.4"
