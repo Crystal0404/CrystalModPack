@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "a28eee797fa074ee2a7e056bf24d5dd9c9df2ef20dfca713f167d160a0fad9af"
+hash = "374f0436bbbee517b5fbc976b226aa097b1733551850b8c880bf68e6563b18f9"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "c5ecb30262c296e6733e4bd404a895b49083511dc851d9d288e3dec0d3dc5c26"
+hash = "e39ebed36242a2a7842ef5b189e28df2e3350ad143643407c2435c21234aa42e"
 metafile = true
 
 [[files]]
@@ -252,5 +252,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/xk-redstone-display.pw.toml"
-hash = "e384dbc4684f10991460e32c533faa8390e2f9305119756ef68db6cec3869e5e"
+hash = "56b9ba9fec7f13fe6d1eef44066ab405ce2847e736cb0fc4bb3c19e91e7660b4"
 metafile = true
