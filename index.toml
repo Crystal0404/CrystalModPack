@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-rain.pw.toml"
-hash = "e91b351738642db1a6c3a15e041598043e19fae88dfbf48a05977367628ab447"
+hash = "02bf79cb43623a6b2911aec78db8bbb13d8367b60e39ff07c26677fb25ca6abb"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "ad1d2aa1d8270cd771b436b431929b17e0bd88847eb181df7ad355bcb0c86dec"
+hash = "9325b307b5396a19c7cb40298491652770c37c4d52c2993474f7916aee970c55"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "c5ecb30262c296e6733e4bd404a895b49083511dc851d9d288e3dec0d3dc5c26"
+hash = "e39ebed36242a2a7842ef5b189e28df2e3350ad143643407c2435c21234aa42e"
 metafile = true
 
 [[files]]
@@ -252,5 +252,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/xk-redstone-display.pw.toml"
-hash = "e384dbc4684f10991460e32c533faa8390e2f9305119756ef68db6cec3869e5e"
+hash = "56b9ba9fec7f13fe6d1eef44066ab405ce2847e736cb0fc4bb3c19e91e7660b4"
 metafile = true

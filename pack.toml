@@ -1,12 +1,12 @@
 name = "1.21.4-Fabric"
 author = "Crystal0404"
-version = "1.1.0"
+version = "1.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ffcfd444107bc106669e67d8d3201216f580fdcc135733cecca76ef1899635d2"
+hash = "eb301ab7ab0ebcda386c2dcfa51f6dcd74ddcf2cb436098968ef8ca49e5f51c2"
 
 [versions]
 fabric = "0.16.10"
